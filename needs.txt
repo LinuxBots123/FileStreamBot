@@ -2,8 +2,7 @@ lxml
 Beautifulsoup4
 pytz
 shortzy
-pyrogram
-
+git+https://github.com/MKN-BOTZ/pyrogram
 aiohttp
 pyrofork
 python-dotenv
