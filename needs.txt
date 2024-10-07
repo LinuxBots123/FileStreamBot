@@ -2,7 +2,7 @@ lxml
 Beautifulsoup4
 pytz
 shortzy
-
+pyrogram
 
 aiohttp
 pyrofork
