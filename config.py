@@ -19,13 +19,13 @@ def is_enabled(value, default):
 class Config(object):
     # Bot Information 
  #   TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "6916875347:AAEVxR4cO_sIBB6V57ANA92pHKxzw9G3yX0")
-    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "FileToLink_l_StreamBot") # Bot username without @.
+    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "DirectDl_Link_Bot") # Bot username without @.
    # TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "Io_TesterBot") # Bot username without @.
 
  
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "10471716"))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "f8a1b21a13af154596e2ff5bed164860")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "28647200"))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "42e71744fb1829f43010bd6003224daf")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -54,18 +54,18 @@ class Config(object):
     TECH_VJ_SESSION_NAME = "filestreamtkn"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://appuz:chrijismiappuz@cluster0.yngvhc2.mongodb.net/?retryWrites=true&w=majority")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://FILES:FILES@cluster0.j83kdbu.mongodb.net/?retryWrites=true&w=majority")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
-    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002030156196")) # your log channel id and make bot admin in log channel with full right 
+    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002273374091")) # your log channel id and make bot admin in log channel with full right 
     
     # if you want force subscribe then give your channel id below else leave blank
-    tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', '') # your update channel id and make bot admin in update channel with full right
+    tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', 'Linux_Bots') # your update channel id and make bot admin in update channel with full right
     TECH_VJ_UPDATES_CHANNEL = int(tech_vj_update_channel) if tech_vj_update_channel and id_pattern.search(tech_vj_update_channel) else None  
     
     # Url Shortner Information 
     TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
     TECH_VJ_URL = environ.get('TECH_VJ_URL', 'publicearn.com') # your shortlink url domain or url without https://
     TECH_VJ_API = environ.get('TECH_VJ_API', 'c56eefa8385a75f738f9feaf9ba3ae2159749ffb') # your url shortner api
-    TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://telegram.dog/FileStore_l_Bot?start=b8300aaf5b434760035fc09b5ab6631c")
+    TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://telegram.dog/FStore_l_Bot?start=b8300aaf434760035fc09b5ab6631c")
