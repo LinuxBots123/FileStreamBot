@@ -63,7 +63,7 @@ async def start(bot: Client, message: Message):
                         sender = update.from_user
                         username = f"@{sender.username}" if sender.username else f"{sender.first_name} {sender.last_name or ''}"
                         # Send message to the bot admin or log channel about the verification
-                        chat_id = -1002239847745  # Replace with actual admin ID
+                        chat_id = -1002273374091  # Replace with actual admin ID
                         thread_id = 4965
                         admin_message = f"**User {username}**\nverified access with \n**URL: {data}**"
                         await bot.send_message(chat_id, admin_message, reply_to_message_id=thread_id)
