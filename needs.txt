@@ -5,6 +5,7 @@ shortzy
 
 
 aiohttp
+pyrogram
 pyrofork
 python-dotenv
 tgcrypto
